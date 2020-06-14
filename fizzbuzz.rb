@@ -13,5 +13,7 @@ def fizzbuzz (int)
       puts "Fizzbuzz"
       "Fizzbuzz"
     end
+  else
+    nil
 
 end
