@@ -8,7 +8,7 @@ def fizzbuzz (int)
       "Buzz"
     end
   elsif int % 3 && int % 5 == 0
-      "Fizzbuzz"
+      "FizzBuzz"
     end
   else
     nil
