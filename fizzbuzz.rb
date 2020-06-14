@@ -2,12 +2,15 @@
 # See README.md for instructions on how to do this
 def fizzbuzz (int)
   if int % 3 == 0
+     puts "Fizz"
      "Fizz"
     end
   elsif int % 5 == 0
+      puts "Buzz"
       "Buzz"
     end
   elsif int % 3 && int % 5 == 0
+      puts "Fizzbuzz"
       "Fizzbuzz"
     end
 
